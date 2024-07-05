@@ -7,11 +7,12 @@ export PATH="/data/data/com.offsec.nethunter/files/scripts:/data/data/com.offsec
 unset LD_LIBRARY_PATH
 unset LD_PRELOAD
 export PS1="\\[\\e[1;32m\\]\\u [ \\[\\e[0m\\]\\w\\[\\e[1;32m\\] ]\$ \\[\\e[0m\\]"
+export HOME=/data/data/com.offsec.nhterm/files/usr/home
 # Find and remember su location
-SU1=$(which su)
-SU2="$SU1 -mm -s $@"
+# SU1=$(which su)
+# SU2="$SU1 -mm -s $@"
 
 # clear out old view
-clear
+# clear
 
-$SU2 /data/data/com.offsec.nhterm/files/usr/bin/bash
+# $SU2 /data/data/com.offsec.nhterm/files/usr/bin/bash
