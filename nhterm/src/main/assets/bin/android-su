@@ -16,3 +16,4 @@ export HOME=/data/data/com.offsec.nhterm/files/usr/home
 # clear
 
 # $SU2 /data/data/com.offsec.nhterm/files/usr/bin/bash
+/data/data/com.offsec.nhterm/files/usr/bin/bash
